@@ -69,6 +69,20 @@ profile {
     background-color: #0d0d0d; /* Darker blue on hover */
   }
 
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; /* Behance blue color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .linkedin-button:hover {
+    background-color: #0d0d0d; /* Darker blue on hover */
+  }
+
+
 .cv-button {
     display: inline-block;
     padding: 10px 20px;
