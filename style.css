@@ -97,12 +97,12 @@ profile {
   }
 
 .image-grid{
---gap:16px;
+    --gap:16px;
     --num-cols:4;
     --row-height:300px;
 
     box-sizing: border-box;
-    padding:var(--gap);
+    padding: var(--gap);
 
     display: grid;
     grid-template-colums:repeat(var(--num-cols), 1fr);
@@ -112,7 +112,7 @@ profile {
 }
 
 .image-grid > img{
-width:100%;
+    width:100%;
     height:100%;
     object-fit: cover;
 }
