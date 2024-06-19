@@ -98,10 +98,8 @@ profile {
 
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colonnes de taille égale */
-  grid-template-rows: repeat(3, 1fr); /* 3 lignes de taille égale */
-  gap: 10px; /* Espacement entre les images */
+    grid-template-columns: repeat(2, 1fr) 1.5fr;
+    grid-template-rows: 1fr repeat(2, 1fr);
 }
 
 
