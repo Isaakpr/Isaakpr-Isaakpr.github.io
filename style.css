@@ -91,6 +91,14 @@ profile {
     text-decoration: none;
     border-radius: 5px;
   }
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 25px;
+grid-row-gap: 15px;
+}
   
   .cv-button:hover {
     background-color: #0d0d0d; /* Darker blue on hover */
