@@ -97,9 +97,16 @@ profile {
   }
 
 
-.container {
-    grid-template-columns: repeat(2, 1fr) 1.5fr;
-    grid-template-rows: 1fr repeat(2, 1fr);
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
 }
 
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
