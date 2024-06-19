@@ -96,15 +96,18 @@ profile {
     background-color: #0d0d0d; /* Darker blue on hover */
   }
 
-.container {
-    grid-template-columns: repeat(2, 1fr) 1.5fr;
-    grid-template-rows: 1fr repeat(2, 1fr);
-}
 
 .image {
   width: 100%; /* Occuper toute la largeur de la cellule */
   height: auto; /* Conserver le rapport hauteur/largeur */
   object-fit: cover; /* Couper l'image pour s'adapter à la cellule, sans déformation */
 }
+
+.container {
+    grid-template-columns: repeat(2, 1fr) 1.5fr;
+    grid-template-rows: 1fr repeat(2, 1fr);
+}
+
+
 
 
