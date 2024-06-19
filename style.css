@@ -109,6 +109,8 @@ profile {
     width: 90%;
     max-width: 1200px;
     margin: auto;
+    padding: 20px; /* Adjust padding if needed */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
 }
 
 .grid-item {
