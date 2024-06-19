@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -96,3 +98,9 @@ profile {
     background-color: #0d0d0d; /* Darker blue on hover */
   }
 
+.photo-container{
+display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top: 100px;
+}
